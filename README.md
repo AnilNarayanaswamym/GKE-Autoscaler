@@ -76,7 +76,7 @@ Task 2. Deploy problematic workload
 Deploy both YAML in the cluster you just created
 
 	workload
-$ kubectl apply -f https://storage.googleapis.com/breakfix/myapp.yaml
+$ kubectl apply -f myapp.yaml
 
 Task 3. Identify issue and resolve it
 
