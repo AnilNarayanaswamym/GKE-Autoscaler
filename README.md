@@ -81,3 +81,8 @@ $ kubectl apply -f myapp.yaml
 Task 3. Identify issue and resolve it
 
 When you deploy the YAML file, the cluster autoscaler will create new nodes automatically for you. If you modify the YAML for 30 replicas, you will get unschedulable pods and the cluster autoscaler is unable to scale properly. Why?
+
+This is because of  PodUnschedulable Cannot schedule pods: Insufficient cpu.
+ PodUnschedulable Cannot schedule pods: Insufficient memory.
+ 
+ So increase the cpu and memory will resove the issue.
