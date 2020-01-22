@@ -86,3 +86,4 @@ This is because of  PodUnschedulable Cannot schedule pods: Insufficient cpu.
  PodUnschedulable Cannot schedule pods: Insufficient memory.
  
  So increase the cpu and memory will resove the issue.
+ To performt that follow link https://cloud.google.com/kubernetes-engine/docs/tutorials/migrating-node-pool
